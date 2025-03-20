@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // Use the stored result for the *current* image
             let resultText;
             if (currentImageResult === 'not-dangerous') {
-                resultText = "Fissure is not dangerous";
+                resultText = "Crack is not dangerous";
                 resultDiv.classList.add('not-dangerous');
             } else {
-                resultText = "Fissure is dangerous";
+                resultText = "Crack is dangerous";
                 resultDiv.classList.add('dangerous');
             }
 
